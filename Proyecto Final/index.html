@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="container">
+    <form>
+        <h1>Create account</h1>
+        <label for="nombre">Nombre</label>
+        <input type="text" class="campos" name="nombre" id="nombre">
+        <img class="imgerror" src="images/error-icon.svg">
+        <img class="imgsuccess" src="images/success-icon.svg">
+        <p class="errortext">Rellene este campo</p>
+        <label for="email">Email</label>
+        <input type="email" class="campos" name="email" id="email">
+        <img class="imgerror" src="images/error-icon.svg">
+        <img class="imgsuccess" src="images/success-icon.svg">
+        <p class="errortext">Rellene este campo</p>
+        <label for="password">Clave</label>
+        <input type="password" class="campos" name="password" >
+        <img class="imgerror" src="images/error-icon.svg">
+        <img class="imgsuccess" src="images/success-icon.svg">
+        <p class="errortext">Rellene este campo</p>
+        <label for="password">Confirme su clave</label>
+        <input type="password" class="campos" name="password" >
+        <img class="imgerror" src="images/error-icon.svg">
+        <img class="imgsuccess" src="images/success-icon.svg">
+        <p class="errortext">Rellene este campo</p>
+
+        <input class="button" onclick="send()" type="submit" value="ENVIAR">
+    </form>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
